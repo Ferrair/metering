@@ -1,6 +1,10 @@
 package com.adc.metering.bean;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Field;
+
 public class UnitInfo {
+    @Id
     private String unitName;
     private String unitNature;
     private String unitRegistrationAddress;
@@ -47,7 +51,7 @@ public class UnitInfo {
         this.unitLabAddress = unitLabAddress;
     }
 
-    public String getCMANumber() {
+    public String  getCMANumber() {
         return CMANumber;
     }
 

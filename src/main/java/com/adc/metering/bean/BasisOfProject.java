@@ -24,4 +24,6 @@ public class BasisOfProject {
     public void setFeasibilityOfProject(String feasibilityOfProject) {
         this.feasibilityOfProject = feasibilityOfProject;
     }
+
+
 }

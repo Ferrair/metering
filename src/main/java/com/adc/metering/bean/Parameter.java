@@ -1,8 +1,8 @@
 package com.adc.metering.bean;
 
 public class Parameter {
-    private String parameterName;
-    private String parameterDetectMethod;
+    private String parameterName ;
+    private String parameterDetectMethod ;
 
     public Parameter(String parameterName, String parameterDetectMethod) {
         this.parameterName = parameterName;

@@ -1,39 +1,39 @@
 package com.adc.metering.bean;
 
 public class ProjectFunding {
-    private String feeOfSample;
-    private String feeOfTest;
-    private String feeOfExpert;
-    private String otherFee;
+    private int feeOfSample;
+    private int feeOfTest;
+    private int feeOfExpert;
+    private String  otherFee;
 
-    public ProjectFunding(String feeOfSample, String feeOfTest, String feeOfExpert, String otherFee) {
+    public ProjectFunding(int feeOfSample, int feeOfTest, int feeOfExpert, String  otherFee) {
         this.feeOfSample = feeOfSample;
         this.feeOfTest = feeOfTest;
         this.feeOfExpert = feeOfExpert;
         this.otherFee = otherFee;
     }
 
-    public String getFeeOfSample() {
+    public int getFeeOfSample() {
         return feeOfSample;
     }
 
-    public void setFeeOfSample(String feeOfSample) {
+    public void setFeeOfSample(int feeOfSample) {
         this.feeOfSample = feeOfSample;
     }
 
-    public String getFeeOfTest() {
+    public int getFeeOfTest() {
         return feeOfTest;
     }
 
-    public void setFeeOfTest(String feeOfTest) {
+    public void setFeeOfTest(int feeOfTest) {
         this.feeOfTest = feeOfTest;
     }
 
-    public String getFeeOfExpert() {
+    public int getFeeOfExpert() {
         return feeOfExpert;
     }
 
-    public void setFeeOfExpert(String feeOfExpert) {
+    public void setFeeOfExpert(int feeOfExpert) {
         this.feeOfExpert = feeOfExpert;
     }
 
@@ -41,7 +41,7 @@ public class ProjectFunding {
         return otherFee;
     }
 
-    public void setOtherFee(String otherFee) {
+    public void setOtherFee(String  otherFee) {
         this.otherFee = otherFee;
     }
 }

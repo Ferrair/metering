@@ -5,10 +5,10 @@ public class Contact {
     private String position;
     private String contactNumber;
     private String fax;
-    private String phoneNumber;
+    private Integer phoneNumber;
     private String email;
 
-    public Contact(String name, String position, String contactNumber, String fax, String phoneNumber, String email) {
+    public Contact(String name, String position, String contactNumber, String fax, Integer phoneNumber, String email) {
         this.name = name;
         this.position = position;
         this.contactNumber = contactNumber;
@@ -49,11 +49,11 @@ public class Contact {
         this.fax = fax;
     }
 
-    public String getPhoneNumber() {
+    public Integer getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
+    public void setPhoneNumber(Integer phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
